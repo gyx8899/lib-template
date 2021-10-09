@@ -1,3 +1,7 @@
+## [0.0.2-beta.7](https://github.com/gyx8899/lib-template/compare/v0.0.2-beta.6...v0.0.2-beta.7) (2021-10-09)
+
+
+
 ## [0.0.2-beta.6](https://github.com/gyx8899/lib-template/compare/v0.0.2-beta.5...v0.0.2-beta.6) (2021-10-09)
 
 
