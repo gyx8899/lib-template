@@ -9,7 +9,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "node test/test.js",
-    "publish": "publish.sh"
+    "npm-publish": "npm-publish.sh"
   },
   "files": [
     "dist"
