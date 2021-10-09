@@ -9,7 +9,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "node test/test.js",
-    "publish": "cd ../yx-env && npm-publish.sh lib-template"
+    "publish": "publish.sh"
   },
   "files": [
     "dist"
