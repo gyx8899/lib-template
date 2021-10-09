@@ -1,7 +1,12 @@
 #!/bin/bash
 
+if [ "$1" ]; then
+  cd ../$1
+fi
+
 npm config set access public
-npm run prepack
+npm run git-push && npm run build && npm run test
+
 if [ $? = 0 ]; then
     echo
   else
