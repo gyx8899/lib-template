@@ -74,7 +74,7 @@ git add changelog.md
 git commit -m "docs: add $TAG changelog"
 git push origin $branch
 
-rm -rf dist
+# rm -rf dist
 
 if [ $opt == "premajor" -o $opt == "preminor" -o $opt == "prepatch" -o $opt == "prerelease" ]; then
   npm publish --tag=beta
